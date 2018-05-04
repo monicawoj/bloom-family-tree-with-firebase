@@ -1,0 +1,12 @@
+$colorBackground : #fff;
+$font-family: 'Lato', sans-serif;
+$break: 800px;
+$padding: 20px;
+$colorHover : coral;
+
+@import "_mixins.scss";
+@import "components/_global-layout.scss";
+@import "components/_navigation.scss";
+@import "components/_loadDataSection.scss";
+@import "components/_sideBar.scss";
+@import "components/_form.scss";

@@ -1,0 +1,37 @@
+.navigation {
+  height: 100%;
+  ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li {
+    height: 100%;
+    display: inline-block;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      color: rgba(16, 61, 93, 0.7);
+      &:hover {
+        border-bottom: 5px solid $colorHover;
+      }
+    }
+    button {
+      min-width: 85px;
+      height: 75%;
+    }
+    .signOut {
+      height: 100%;
+      width: 100%;
+      color: #fff;
+    }
+  }
+}
